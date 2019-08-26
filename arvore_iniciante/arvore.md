@@ -17,7 +17,7 @@ Os nós *3* e *4* são filhos do nó *2* e não são pais de ninguém, pois - as
 
 ## Altura de uma árvore
 
-A altura de uma árvore é o maior caminho que você faz asindo da raiz da árvore e indo até uma das folhas, por exemplo, a altura da àrvore da imagem acima é 3, pois a maior distância entre caminhos da àrvore é sair da raiz (*1*) e ir ou para a folha *3* ou para a folha *4* passando por *2*, também é possivel chegar à uma folha indo de *1* para *5*, contudo, por não ser *A MAIOR DISTÂNCIA POSSIVEL* não é considerada a altura da arvore.
+A altura de uma árvore é o maior caminho que você faz saindo da raiz da árvore e indo até uma das folhas, por exemplo, a altura da àrvore da imagem acima é 3, pois a maior distância entre caminhos da àrvore é sair da raiz (*1*) e ir ou para a folha *3* ou para a folha *4* passando por *2*, também é possivel chegar à uma folha indo de *1* para *5*, contudo, por não ser *A MAIOR DISTÂNCIA POSSIVEL* não é considerada a altura da arvore.
 
 > Veja abaixo mais exemplos de árvores com foco na altura das árvores
 ![altura](exemplo_altura_arv.png)
