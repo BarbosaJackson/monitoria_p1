@@ -44,6 +44,7 @@ void print_tree(tree t[], int no_atual) {
 Essa forma de exibir uma árvore é chamada de pré-ordem, veja mais em: [formas clássicas de percorrer uma árvore](https://br.spoj.com/problems/PREEMPOS/)
 
 ## Questões para resolver:
-1. [Mas que árvore estranha](http://thehuxley.com/problem/786)
-2. [Pais das folhas](http://thehuxley.com/problem/929)
-3. [Em cada nível da árvore](http://thehuxley.com/problem/949?quizId=4049)
+  * [Mas que árvore estranha](http://thehuxley.com/problem/786)
+    * [Video de apoio](https://photos.app.goo.gl/57tj0a5jrtM0zOYk1)
+  * [Pais das folhas](http://thehuxley.com/problem/929)
+  * [Em cada nível da árvore](http://thehuxley.com/problem/949)
