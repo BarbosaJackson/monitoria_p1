@@ -1,6 +1,6 @@
 # O que é uma árvore para programação? 
-Uma arvore é, para programação, uma forma de representar os dados de forma que você vai ter vários nós e cada um deles ganha um nome que são: *raiz*, *interno*, *folha*
-  - O nó raiz é o primeiro nó da árvore, toda árvore parte dele e a partir dele você consegue chegar em qualquer nó da árvore, ou seja, ele não tem nenhum antecessor e é antecessor de todos os nós da àrvore
+Uma árvore é, para programação, uma forma de representar os dados de forma que você vai ter vários nós e cada um deles ganha um nome que são: *raiz*, *interno*, *folha*
+  - O nó raiz é o primeiro nó da árvore, toda árvore parte dele e a partir dele você consegue chegar em qualquer nó da árvore, ou seja, ele não tem nenhum antecessor e é antecessor de todos os nós da árvore
   - Nós folhas são os nós que não tem nenhum filho (ou sucessor), ou seja, eles vão estar na ponta da árvore.
   - Nós internos são aqueles que não são raiz, mas que também não são folhas, ou seja, estão no meio da árvore.
 
@@ -17,7 +17,7 @@ Os nós *3* e *4* são filhos do nó *2* e não são pais de ninguém, pois - as
 
 ## Altura de uma árvore
 
-A altura de uma árvore é o maior caminho que você faz saindo da raiz da árvore e indo até uma das folhas, por exemplo, a altura da àrvore da imagem acima é 3, pois a maior distância entre caminhos da àrvore é sair da raiz (*1*) e ir ou para a folha *3* ou para a folha *4* passando por *2*, também é possivel chegar à uma folha indo de *1* para *5*, contudo, por não ser *A MAIOR DISTÂNCIA POSSIVEL* não é considerada a altura da arvore.
+A altura de uma árvore é o maior caminho que você faz saindo da raiz da árvore e indo até uma das folhas, por exemplo, a altura da árvore da imagem acima é 3, pois a maior distância entre caminhos da árvore é sair da raiz (*1*) e ir ou para a folha *3* ou para a folha *4* passando por *2*, também é possivel chegar à uma folha indo de *1* para *5*, contudo, por não ser *A MAIOR DISTÂNCIA POSSIVEL* não é considerada a altura da arvore.
 
 > Veja abaixo mais exemplos de árvores com foco na altura das árvores
 ![altura](exemplo_altura_arv.png)
