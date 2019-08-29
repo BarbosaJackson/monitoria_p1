@@ -8,7 +8,7 @@ Uma árvore é, para programação, uma forma de representar os dados de forma q
 ![arvore](exemplo_arv.jpeg)
 
 ## Nó pai e nó filho
-O nó pai é o nó que imediatamente anterior ao outro, todo nó - exceto a raiz da árvore - tem um nó pai.
+O nó pai é o nó que está imediatamente anterior ao outro, todo nó - exceto a raiz da árvore - tem um nó pai.
 O nó filho é o nó imediatamente sucessor ao nó pai, todo nó da árvore tem pelo menos um filho - exceto as folhas.
 Voltando para o exemplo acima:
 O nó *1* não tem pai, pois é a raiz da árvore e é pai dos nós *2* e *5*.
