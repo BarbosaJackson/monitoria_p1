@@ -30,6 +30,10 @@ struct tree {
 	int esquerda, direita;
 };
 ```
+Outra forma de implementar é com uma matriz **Nx2** onde a posição (**i**,0) é a esquerda e a (**i**, 1) a direita, ficando:
+```C
+int tree[len][2];
+```
 Para caminhar na ávore basta ir, recursivamente,  para o nó da esquerda e depois para o nó da direita do nó atual - iniciando da raiz, se eu quero exibir todos os nós da árvore, uma maneira de fazer é:
 ```C
 void print_tree(tree t[], int no_atual) {
@@ -39,6 +43,19 @@ void print_tree(tree t[], int no_atual) {
 	printf("%d\n", no_atual);
 	print_tree(t, t[no_atual].esquerda);
 	print_tree(t, t[no_atual].direita);
+}
+```
+
+Para se caminhar por ela de forma igual a que usa struct fazendo uso de matriz basta fazer:
+
+```C
+void print_tree(int tree[][2], int no_atual) {
+	if(no_atual == -1) {
+		return;
+	}
+	printf("%d\n", no_atual);
+	print_tree(tree, tree[no_atual][0]);
+	print_tree(tree, tree[no_atual][1]);
 }
 ```
 Essa forma de exibir uma árvore é chamada de pré-ordem, veja mais em: [formas clássicas de percorrer uma árvore](https://br.spoj.com/problems/PREEMPOS/)
